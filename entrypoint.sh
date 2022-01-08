@@ -2,7 +2,6 @@
 
 rm -rf public/*
 
-cp -R static/* public/
-cp -R client/runtime/ public/
+cp -R assets/* public/
 
 exec npm run start
